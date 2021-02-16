@@ -4,7 +4,7 @@ import Registration from "../Components/Registration/Registration";
 
 
 describe('Testing Registration Component', () => {
-    test('BE-D2-Test10', () => {
+    test('be_d2_test10', () => {
         const wrapper = shallow(<Registration />);   
         expect(wrapper.instance()).toBeDefined();
     })
