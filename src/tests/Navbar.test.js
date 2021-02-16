@@ -17,7 +17,7 @@ beforeEach(() => {
 })  
 
 describe('Testing Navbar Component', () => {
-    test('FE - D1 Test7', () => {
+    test('FE-D1-Test7', () => {
         expect(wrapper.instance()).toBeDefined();
     })
 

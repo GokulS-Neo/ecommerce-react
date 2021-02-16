@@ -4,7 +4,7 @@ import Product from "../Components/Products/Product/Product";
 
 
 describe('Testing Product Component', () => {
-    test('FE - D1 Test8', () => {
+    test('FE-D1-Test8', () => {
         const wrapper = shallow(<Product product={{}}/>);   
         expect(wrapper.instance()).toBeDefined();
     })

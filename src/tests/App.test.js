@@ -5,7 +5,7 @@ import App from '../App';
 
 describe('Testing App Component', () => {
 
-  test('FE - D1 Test1', () => {
+  test('FE-D1-Test1', () => {
     const wrapper = shallow(<App />);
     expect(wrapper.instance()).toBeDefined();
   })
