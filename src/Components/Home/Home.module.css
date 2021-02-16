@@ -1,0 +1,10 @@
+
+.Container {
+    display: flex;
+    width: 100%;
+    height: 90.5vh;
+    background-image: linear-gradient(to right, #94b4e4, #7dbdea, #64c5eb, #4dcde6, #44d4da);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
