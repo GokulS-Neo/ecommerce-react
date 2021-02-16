@@ -1,7 +1,7 @@
 import { mount } from "enzyme";
 import CartItem from "../Components/Cart/CartItem/CartItem";
 
-describe('Testing Card Component', () => {
+describe('Testing CardItem Component', () => {
     const wrapper = mount(<CartItem item={{}} />);
     const wrapperInstance = wrapper.instance();
     
