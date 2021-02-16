@@ -5,7 +5,7 @@ describe('Testing Card Component', () => {
     const wrapper = mount(<CartItem item={{}} />);
     const wrapperInstance = wrapper.instance();
     
-    test('FE - CartItem', () => {
+    test('FE - D1', () => {
         expect(wrapperInstance).toBeDefined();
     });
 

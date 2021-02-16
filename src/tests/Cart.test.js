@@ -17,7 +17,7 @@ describe('Testing Card Component', () => {
     const wrapper = shallow(<Cart {...InitialProps}/>);
     const wrapperInstance = wrapper.instance();
     
-    test('FE - Cart', () => {
+    test('FE - D1', () => {
         expect(wrapperInstance).toBeDefined();
     })
 

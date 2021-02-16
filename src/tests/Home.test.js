@@ -5,7 +5,7 @@ describe('Testing Home Component', () => {
     const wrapper = mount(<Home />);
     const wrapperInstance = wrapper.instance();
     
-    test('FE - Home', () => {
+    test('FE - D1', () => {
         expect(wrapperInstance).toBeDefined();
     })
 
